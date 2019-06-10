@@ -10,7 +10,7 @@ def word_substituter(string)
  array.each_with_index do |word, index|
     shorten.each do |change|
       if word.downcase == change
-        array[index] = dictionary[word]
+        array[index] = dictionary[change]
       end  
  end
  index += 1 
