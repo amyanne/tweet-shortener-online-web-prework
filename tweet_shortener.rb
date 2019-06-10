@@ -24,4 +24,5 @@ def word_substituter(string)
       puts string
     end
 end
-def 
+def selective_tweet_shortener(array)
+  
