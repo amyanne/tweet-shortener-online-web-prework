@@ -25,6 +25,8 @@ def word_substituter(string)
     end
 end
 def selective_tweet_shortener(string)
-  string[]
+  if string.length > 139
+    word_substituter(string)
+  end
     
 end
