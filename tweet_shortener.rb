@@ -6,9 +6,8 @@ end
 def word_substituter(string)
  array = string.split(" ")
  shorten = dictionary.keys
- index = 0
- shorten.each do |word|
-    if array[index] = word
+ array.each_with_index do |word, index|
+    if arr= word
       array[index] = dictionary[word]
       index += 1
    end  
