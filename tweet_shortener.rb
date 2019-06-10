@@ -24,4 +24,4 @@ def word_substituter(string)
       puts string
     end
 end
-def seltiec
+def 
