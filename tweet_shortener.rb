@@ -18,6 +18,6 @@ def word_substituter(string)
   end
   def bulk_tweet_shortener(array)
     array.each_with_index do |tweet, index|
-      array[]
+      $strarray[]
       
 end
