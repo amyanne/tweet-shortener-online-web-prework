@@ -8,7 +8,7 @@ def word_substituter(string)
  shorten = dictionary.keys
  array.each_with_index do |word, index|
     shorten.each do |change|
-      if word == change
+      if word.downcase == change
       array[index] = dictionary[word]
       end  
  end
