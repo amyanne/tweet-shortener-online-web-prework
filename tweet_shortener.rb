@@ -14,6 +14,5 @@ def word_substituter(string)
       index += 1
  end
  end
- binding.pry
  array.join(" ")
   end
