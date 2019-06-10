@@ -25,4 +25,6 @@ def word_substituter(string)
     end
 end
 def selective_tweet_shortener(array)
-  
+  array.each do |tweet|
+    
+end
