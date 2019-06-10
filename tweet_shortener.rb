@@ -9,7 +9,7 @@ def word_substituter(string)
  index = 0
  shorten.each do |word|
     if array[index] = word
-      array[array.index(index)] = dictionary[word]
+      array[index] = dictionary[word]
       index += 1
    end  
  end
