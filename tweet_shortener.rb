@@ -19,7 +19,6 @@ def word_substituter(string)
   def bulk_tweet_shortener(array)
     array.each_with_index do |tweet, index|
       string = $str = array[index]
-      binding.pry
      string = word_substituter(string)
       puts string
     end
