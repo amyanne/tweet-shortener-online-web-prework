@@ -11,8 +11,8 @@ def word_substituter(string)
       if word == change
       array[index] = dictionary[word]
       end  
-      index += 1
  end
+ index += 1 
  end
  array.join(" ")
   end
