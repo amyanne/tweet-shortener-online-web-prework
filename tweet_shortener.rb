@@ -7,10 +7,12 @@ def word_substituter(string)
  array = string.split(" ")
  shorten = dictionary.keys
  array.each_with_index do |word, index|
-    if arr= word
+    shorten.each do |change|
+      if word == change
       array[index] = dictionary[word]
+      end  
       index += 1
-   end  
+ end
  end
  binding.pry
  array.join(" ")
